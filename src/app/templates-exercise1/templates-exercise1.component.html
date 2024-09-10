@@ -1,0 +1,6 @@
+<div class="container">
+    <h2>May I help you ?</h2>
+    <h5>Enter the book name:</h5>
+    <input #bookName type="text" placeholder="Enter book name" (keyup)="searchtext(bookName)">
+    <p>{{searchText.length > 0 ? "You are searching for: " + searchText : ""}}</p>
+</div>

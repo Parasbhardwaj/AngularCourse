@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    background-color: darkgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    border: 5px double black;
+    padding: 0px;
+}
+
+.user-details{
+    display: grid;
+    grid-template-columns: 120px auto;
+    gap: 5px;
+    height: max-content;
+}
+
+.user-details > p {
+    margin: 0;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+    <h2>When was I born ?</h2>
+    <h5>Enter your Age:</h5>
+    <input #age type="number" placeholder="Enter age">
+    <button (click)="calculateAge(age)">Show Birth Year</button>
+    <p>{{birthYear > 0 ? "You were born in " + birthYear + "." : ""}}</p>
+    <p>{{category.length > 0 ? category : ""}}</p>
+</div>
